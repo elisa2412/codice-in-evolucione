@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contatti • Elisa Scanu</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://unpkg.com/lucide@latest"></script>
+</head>
+<body>
+    <div class="container">
+        <header class="hero">
+            <div class="hero-content">
+                <h1>Contattami</h1>
+                <p class="subtitle">Compila il modulo per inviarmi un messaggio</p>
+            </div>
+            <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" fill="none" viewBox="0 0 24 24">
+  <rect width="24" height="24" fill="none"/>
+  <path d="M4 4h16v16H4V4zm0 0l8 8 8-8" stroke="#d4b499" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
+        </header>
+
+        <section class="contact-section">
+            <form action="mailto:scanu.elisa18@tiscali.it" method="post" enctype="text/plain">
+                <label for="nome">Nome:</label>
+                <input type="text" id="nome" name="nome" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="messaggio">Messaggio:</label>
+                <textarea id="messaggio" name="messaggio" rows="4" required></textarea>
+
+                <button type="submit">
+                    Invia Messaggio
+                    <i data-lucide="mail"></i>
+                </button>
+            </form>
+        </section>
+
+        <footer>
+            <p>© 2024 Elisa Scanu • Sassari, Italy</p>
+        </footer>
+    </div>
+    <script>
+        lucide.createIcons();
+    </script>
+</body>
+</html>
