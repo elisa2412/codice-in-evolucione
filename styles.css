@@ -15,7 +15,7 @@
 }
 
 body {
-    font-family: "poppins", -apple-system, sans-serif;
+    font-family: "papyrus", -apple-system, sans-serif;
     color: var(--color-text);
     line-height: 1.5;
     background: linear-gradient(to bottom, var(--color-bg-light), white);
